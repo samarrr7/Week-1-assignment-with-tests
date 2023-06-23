@@ -12,7 +12,7 @@ function isAnagram(str1, str2) {
   const normalizedStr1 = str1.toLowerCase();
   const normalizedStr2 = str2.toLowerCase();
 
-  // Sort the characters in both strings
+
   const sortedStr1 = normalizedStr1.split('').sort().join('');
   const sortedStr2 = normalizedStr2.split('').sort().join('');
 
