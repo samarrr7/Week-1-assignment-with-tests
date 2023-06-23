@@ -8,7 +8,7 @@
 */
 
 function isAnagram(str1, str2) {
-  // Convert both strings to lowercase
+
   const normalizedStr1 = str1.toLowerCase();
   const normalizedStr2 = str2.toLowerCase();
 
@@ -16,7 +16,6 @@ function isAnagram(str1, str2) {
   const sortedStr1 = normalizedStr1.split('').sort().join('');
   const sortedStr2 = normalizedStr2.split('').sort().join('');
 
-  // Compare the sorted strings
   return sortedStr1 === sortedStr2;
 }
 
